@@ -19,8 +19,9 @@ gem 'turbolinks', '~> 5'
 gem 'jbuilder', '~> 2.7'
 # Use Redis adapter to run Action Cable in production
 # gem 'redis', '~> 4.0'
-# Use Active Model has_secure_password
-# gem 'bcrypt', '~> 3.1.7'
+
+# チュートリアル6章で開放　Use Active Model has_secure_password
+gem 'bcrypt', '~> 3.1.7'
 
 # css と　イメージを読み込まなかったため追加
 gem 'sass-rails'
