@@ -53,7 +53,8 @@ development:
   compile: true
 
   # Verifies that correct packages and versions are installed by inspecting package.json, yarn.lock, and node_modules
-  check_yarn_integrity: true
+  #チュートリアル８章でサーバー再起動したらyarnが古い、upgradeしてもdrunできなかったので指示通り　true を　falseにしてみる
+  check_yarn_integrity: false
 
   # Reference: https://webpack.js.org/configuration/dev-server/
   dev_server:
