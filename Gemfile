@@ -23,6 +23,12 @@ gem 'jbuilder', '~> 2.7'
 # チュートリアル6章で開放　Use Active Model has_secure_password
 gem 'bcrypt', '~> 3.1.7'
 
+# チュートリアル10章で追加 バージョンは上げました
+gem 'faker',          '2.11'
+
+gem 'will_paginate',           '3.3.0'  #バージョンあげました
+gem 'bootstrap-will_paginate', '1.0.0'
+
 # css と　イメージを読み込まなかったため追加
 gem 'sass-rails'
 #統合テストで指摘された為追記
