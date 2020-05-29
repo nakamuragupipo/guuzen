@@ -61,7 +61,7 @@ Rails.application.configure do
 
   config.action_mailer.raise_delivery_errors = true　　　　#trueに上書き
   config.action_mailer.delivery_method = :smtp
-  host = '<your heroku app>.herokuapp.com'
+  host = 'https://fast-falls-861578.herokuapp.com'
   config.action_mailer.default_url_options = { host: host }
   ActionMailer::Base.smtp_settings = {
     :address        => 'smtp.sendgrid.net',
